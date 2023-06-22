@@ -398,21 +398,3 @@ nav .navbar-toggler .bar {
 .checkbox:checked~ul {
     transform: translateY(0);
 }
-
-.checkbox:checked~nav .navbar-toggler {
-    margin-top: 35px;
-}
-
-.checkbox:checked~nav .navbar-toggler .bar:nth-child(1) {
-    position: absolute;
-    transform: rotate(45deg);
-}
-
-.checkbox:checked~nav .navbar-toggler .bar:nth-child(2) {
-    display: none;
-}
-
-.checkbox:checked~nav .navbar-toggler .bar:nth-child(1) {
-
-    transform: rotate(-45deg);
-}
