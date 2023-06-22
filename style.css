@@ -66,18 +66,16 @@ nav ul {
 }
 
 nav ul li {
-    border-bottom: 2px solid rgb(128, 119, 119);
+    border-bottom: 2px solid white;
     transition: 0.2s ease-in;
 }
 
 nav ul li:hover {
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid rgba(128, 0, 0, 0.619);
+    color: #d20834;
     transition: 0.2s ease-in;
 }
 
-div.logo {
-    text-align: center;
-}
 
 
 
@@ -209,12 +207,7 @@ div.logo {
     transition: 0.5s ease-out;
 }
 
-.container3 {
 
-    width: 680px;
-    justify-content: center;
-    align-items: center;
-}
 
 
 .input-container {
