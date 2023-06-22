@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAFIRA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/03f7554adf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav class="container1">
+            <!-- <input type="checkbox" id="toggle"> -->
+            <div class="logo">SHAFIRA</div>
+            <label class="navbar-toggler" for="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul>
+                <li><a href="#sale"><i class="fa-solid fa-cart-shopping fa-xl"></i>Sale</a></li>
+                <li><a href="#men"><i class="fa-solid fa-person fa-2xl"></i>Men</a></li>
+                <li><a href="#women"><i class="fa-solid fa-person-dress fa-2xl"></i>Women</a></li>
+                <li><a href="#kids"><i class="fa-solid fa-child-reaching fa-2xl"></i>Kids</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope fa-shake fa-l"></i>Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sale-section" id="sale">
+        <h1>This is hidden.This heading is used to maintain a gap between the Sale section and heading section which
+            can't be done using break
+            statement if we click on the Sale link at the header.
+        </h1>
+        <h1>This is hidden.This heading is used to maintain a gap between the Sale section and heading section which
+            can't be done
+            using break
+            statement if we click on the Sale link at the header.
+        </h1>
+
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+
+                <div class="slide first">
+                    <img src="SALE1.png" alt="SALE" width="100">
+                </div>
+                <div class="slide">
+                    <img src="SALE2.png" alt="SALE" width="100">
+                </div>
+                <div class="slide">
+                    <img src="SALE3.png" alt="SALE" width="100">
+                </div>
+                <div class="slide">
+                    <img src="SALE4.png" alt="SALE" width="100">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var counter = 2;
+            setInterval(function () {
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 4) {
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="men-section" id="men">
+        <div class="container2">
+            <hr>
+            <br>
+            <h2>
+                <div id="menlogo">
+                    <a><i class="fa-solid fa-person fa-bounce fa-2xl"></i> MEN</a>
+                </div>
+            </h2>
+            <br>
+            <h4>
+                Whether you're a seasoned stylist, a fashion enthusiast, or a total menswear noob, basics are the
+                necessary building
+                blocks for every great wardrobe. Our clothing brand is pumping out adrenaline-soaked
+                collections that
+                fuel the hype machine into overdrive. But before you rush out the door chasing every hot new designer
+                and hopping on
+                every fashion trend you see on your FYP, you gotta set a firm foundation for your closet.
+            </h4>
+            <button class="primary-btn">Click here to check out our collection</button>
+
+
+            <div class="Men-img">
+                <img src="MEN.png" alt="Men" width="500">
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="women-section" id="women">
+        <div class="container2">
+            <hr>
+            <br>
+            <h2>
+                <div id="womenlogo">
+                    <a><i class="fa-solid fa-person-dress fa-bounce fa-2xl"></i> WOMEN</a>
+                </div>
+            </h2>
+            <br>
+            <h4>
+                Fashion-forward collection for self-assured young women. Providing high-quality, inexpensive, and
+                inspirational apparel for modern ladies. Get the high-quality, on-trend clothes at reasonable costs.
+                Offering the finest of designs with a passion for dressing up Indian ladies and making them feel
+                confident and trendy.
+                Comprehensive variety of women's apparel in a variety of designs, including party dresses, western
+                wear, maxi dresses, women's shirts, one-piece dresses, jumpsuits, skirts, and more.
+            </h4>
+            <button class="primary-btn">Click here to check out our collection</button>
+
+
+            <div class="Women-img">
+                <img src="WOMEN.png" alt="Women" width="500">
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="kids-section" id="kids">
+        <div class="container2">
+            <hr>
+            <br>
+            <h2>
+                <div id="kidslogo">
+                    <a><i class="fa-solid fa-child-reaching fa-bounce fa-2xl"></i> KIDS</a>
+                </div>
+            </h2>
+            <br>
+            <h4>
+                While shopping for yourself is fun there's something about buying bits for the small people in your
+                life, be it your own child, a niece or nephew, or godchild, that takes retail therapy to the next level.
+                We're pretty sure it's down to the miniature nature of these clothes - tiny booties, little playsuits
+                and micro dresses
+                - that have us adding to basket in such a hurry.So what are you waiting for? Addddddddd.
+            </h4>
+            <button class="primary-btn">Click here to check out our collection</button>
+
+
+            <div class="Kids-img">
+                <img src="KIDS.png" alt="Kids" width="500">
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="contact-section" id="contact">
+        <div class="container2">
+            <hr>
+            <br>
+            <h2>
+                <div id="contactlogo">
+                    <a><i class="fa-solid fa-envelope fa-bounce fa-xl"></i> CONTACT US</a>
+                </div>
+            </h2>
+            <br>
+            <form action="Action.html" target="_blank" autocomplete="off">
+
+                <div class="input-container ic1">
+                    <input id="firstname" class="input" type="text" placeholder=" " required />
+                    <div class="cut"></div>
+                    <label for="firstname" class="placeholder">First name</label>
+                </div>
+                <div class="input-container ic2">
+                    <input id="lastname" class="input" type="text" placeholder=" " />
+                    <div class="cut"></div>
+                    <label for="lastname" class="placeholder">Last name</label>
+                </div>
+                <div class="input-container ic2">
+                    <input id="email" class="input" type="text" placeholder=" " required />
+                    <div class="cut cut-short1"></div>
+                    <label for="email" class="placeholder">Email</label>
+                </div>
+                <div class="input-container ic2">
+                    <input id="email" class="input" type="text" placeholder=" " required />
+                    <div class="cut cut-short1"></div>
+                    <label for="email" class="placeholder">Query</label>
+                </div>
+                <button type="text" class="submit">submit</button>
+        </div>
+        </form>
+
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <section class="footer">
+            <p>Copyright 2023© Nawadeep Atreya </p>
+        </section>
+    </footer>
+</body>
+
+</html>
